@@ -76,7 +76,7 @@ class Composer:
             data = bytes.fromhex(data)
         header_map = {
 
-            "/injective.exchange.v1beta1.MsgInstantBinaryOptionsMarketLaunch": injective_exchange_tx_pb.SpotMarketLaunchProposal,
+            "/injective.exchange.v1beta1.MsgSpotMarketLaunchProposal": injective_exchange_tx_pb.SpotMarketLaunchProposal,
         }
 
         response = tx_response_pb.TxResponseData.FromString(data)
